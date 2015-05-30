@@ -163,7 +163,7 @@ def get_file(level, lesson, file_type):
 
 
 def main():
-    for level in xrange(1, 2):
+    for level in xrange(1, 9):
         for lesson in xrange(1, 31):
             get_file(level, lesson, 'mp3')
 
